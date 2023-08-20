@@ -4,6 +4,7 @@ const color = document.querySelector('.color');
 
 btn.addEventListener('click', () => {
   // get random number between 0 - 3
+  
   const randomNumber = getRandomNumber();
   console.log(randomNumber);
 
